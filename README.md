@@ -8,6 +8,8 @@ Cisco Packet Tracer labs demonstrating core networking and device configuration 
 - [02-wireless-technologies](02-wireless-technologies/) - WLAN, Bluetooth, and cellular tethering configuration for office devices.
 - [03-cli-console-configuration](03-cli-console-configuration/) - Cisco switch provisioning through console access and IOS CLI commands.
 - [04-packet-analysis](04-packet-analysis/) - ICMP traffic analysis using Packet Tracer Simulation Mode and PDU inspection.
+- [05-network-controller-monitoring](05-network-controller-monitoring/) - Network controller access, dashboard review, and wireless host verification.
+- [06-network-controller-configuration](06-network-controller-configuration/) - Controller discovery setup and `Office-SW2` switch provisioning.
 
 ## Tools
 
@@ -21,5 +23,9 @@ Cisco Packet Tracer labs demonstrating core networking and device configuration 
 - Packet analysis
 - ICMP
 - PDU inspection
+- Network controller monitoring
+- Web-based administration
+- Device discovery
+- VLAN configuration
 - Ping and ipconfig
 - Basic troubleshooting workflows
