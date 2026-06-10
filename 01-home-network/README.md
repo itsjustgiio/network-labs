@@ -8,6 +8,10 @@ Build and configure a simple home network using Cisco Packet Tracer.
 
 Designed and configured a simple home network in Cisco Packet Tracer consisting of a desktop PC, wireless laptop, wireless router, cable modem, and ISP connection. Configured automatic IP addressing through DHCP, connected devices using both wired and wireless technologies, and verified network connectivity using ipconfig and ping. Troubleshot DHCP lease and wireless connectivity issues to restore communication between devices and network services.
 
+## Topology
+
+![Home network topology](topology.png)
+
 ## Network Components
 
 - Desktop PC
@@ -36,6 +40,18 @@ Designed and configured a simple home network in Cisco Packet Tracer consisting 
 - Tested connectivity using ping
 - Connected a wireless client to the network
 - Troubleshot DHCP lease and connectivity issues
+
+## Verification
+
+The desktop PC and wireless laptop both received IPv4 addresses from DHCP and were configured with the wireless router as the default gateway.
+
+### Desktop PC IP Configuration
+
+![Desktop PC ipconfig output](pc-ipconfig.png)
+
+### Wireless Laptop IP Configuration
+
+![Wireless laptop ipconfig output](laptop-ipconfig.png)
 
 ## Key Concepts
 
