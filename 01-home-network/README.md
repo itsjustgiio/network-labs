@@ -4,6 +4,10 @@
 
 Build and configure a simple home network using Cisco Packet Tracer.
 
+## Description
+
+Designed and configured a simple home network in Cisco Packet Tracer consisting of a desktop PC, wireless laptop, wireless router, cable modem, and ISP connection. Configured automatic IP addressing through DHCP, connected devices using both wired and wireless technologies, and verified network connectivity using ipconfig and ping. Troubleshot DHCP lease and wireless connectivity issues to restore communication between devices and network services.
+
 ## Network Components
 
 - Desktop PC
@@ -14,11 +18,15 @@ Build and configure a simple home network using Cisco Packet Tracer.
 
 ## Skills Demonstrated
 
+- Cisco Packet Tracer
+- Networking
 - DHCP Configuration
 - IPv4 Addressing
 - Wireless Networking
 - Network Connectivity Testing
 - Basic Network Troubleshooting
+- DNS
+- TCP/IP
 
 ## Tasks Performed
 
