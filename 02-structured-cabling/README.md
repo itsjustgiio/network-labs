@@ -2,11 +2,11 @@
 
 ## Objective
 
-Create a realistic office cabling setup in Cisco Packet Tracer.
+Build a structured office cabling layout that connects workstations to a wiring closet through wall ports and a patch panel.
 
 ## Description
 
-Built a small office network layout using a wiring closet, patch panel, wall mounts, switch connections, and copper cabling. I connected office devices through wall ports instead of directly cabling everything to the switch, which made the setup feel closer to how a real office network is organized.
+Created an office cabling layout in Cisco Packet Tracer using a wiring closet, rack-mounted patch panel, wall mounts, switch connections, and copper cabling. Connected office devices through wall ports and punchdown connections instead of directly cabling each device to the switch, matching how a real office network is commonly organized and maintained.
 
 ## Topology
 
@@ -26,9 +26,11 @@ Built a small office network layout using a wiring closet, patch panel, wall mou
 
 - Cisco Packet Tracer
 - Structured Cabling
-- Patch Panels
-- Wall Mounts
+- Patch Panel Termination
+- Wall Port Connectivity
 - Copper Cabling
+- Wiring Closet Layout
+- Cable Management
 - DHCP Verification
 - LAN Connectivity Testing
 
@@ -72,5 +74,14 @@ Both office PCs received network addressing and were able to reach the internal 
 - Wiring Closet
 - Patch Panel
 - Wall Ports
-- DHCP
+- Punchdown Connections
 - Cable Management
+- DHCP
+- LAN Connectivity
+
+## Lessons Learned
+
+- Patch panels help organize switch connections and make office cabling easier to manage.
+- Wall ports let end devices connect to the network without running long cables directly to the switch.
+- Punchdown mappings need to match the correct patch panel ports for devices to receive connectivity.
+- Clean cable management makes physical network layouts easier to troubleshoot and document.

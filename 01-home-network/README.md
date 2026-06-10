@@ -2,11 +2,11 @@
 
 ## Objective
 
-Build and configure a simple home network using Cisco Packet Tracer.
+Deploy and verify a small home network with wired and wireless client connectivity.
 
 ## Description
 
-Designed and configured a simple home network in Cisco Packet Tracer consisting of a desktop PC, wireless laptop, wireless router, cable modem, and ISP connection. Configured automatic IP addressing through DHCP, connected devices using both wired and wireless technologies, and verified network connectivity using ipconfig and ping. Troubleshot DHCP lease and wireless connectivity issues to restore communication between devices and network services.
+Configured a home network in Cisco Packet Tracer with a desktop PC, wireless laptop, wireless router, cable modem, and ISP connection. Set up wired and wireless client access, used DHCP for automatic IPv4 addressing, and verified connectivity with `ipconfig` and `ping`. Troubleshot DHCP lease and wireless connectivity issues until both clients could communicate through the network.
 
 ## Topology
 
@@ -23,12 +23,13 @@ Designed and configured a simple home network in Cisco Packet Tracer consisting 
 ## Skills Demonstrated
 
 - Cisco Packet Tracer
-- Networking
-- DHCP Configuration
+- Home Network Setup
+- LAN Connectivity
+- DHCP
 - IPv4 Addressing
 - Wireless Networking
-- Network Connectivity Testing
-- Basic Network Troubleshooting
+- Connectivity Testing
+- Network Troubleshooting
 - DNS
 - TCP/IP
 
@@ -60,3 +61,10 @@ The desktop PC and wireless laptop both received IPv4 addresses from DHCP and we
 - DNS
 - Default Gateway
 - Wireless Communication
+
+## Lessons Learned
+
+- DHCP allows client devices to receive IP settings automatically.
+- A default gateway is required for devices to communicate outside their local network.
+- Wireless clients need both the correct network settings and a successful association to the router.
+- Basic tools like `ipconfig` and `ping` are useful for confirming and troubleshooting connectivity.

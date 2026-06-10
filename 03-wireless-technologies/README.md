@@ -2,11 +2,11 @@
 
 ## Objective
 
-Connect office devices using WLAN, Bluetooth, and cellular tethering in Cisco Packet Tracer.
+Configure multiple wireless access methods for office devices using WLAN, Bluetooth, and cellular tethering.
 
 ## Description
 
-Built a wireless office setup that used three different wireless technologies. I connected a laptop to the office Wi-Fi, paired a tablet with a Bluetooth speaker, and tethered a laptop through a smartphone so it could use the cellular network. This helped me practice how different wireless connections are configured and tested in Packet Tracer.
+Configured wireless connectivity for office devices in Cisco Packet Tracer. Connected a laptop to the employee WLAN, paired a tablet with a Bluetooth speaker, and tethered a laptop through a smartphone so it could use the cellular network. Verified that each connection method worked by checking addressing, pairing status, and access to the internal web server.
 
 ## Topology
 
@@ -28,10 +28,12 @@ Built a wireless office setup that used three different wireless technologies. I
 - Cisco Packet Tracer
 - Wireless Networking
 - WLAN Configuration
+- SSID Authentication
 - Bluetooth Pairing
 - Cellular Tethering
 - DHCP Verification
 - Web Connectivity Testing
+- Mobile Device Connectivity
 
 ## Tasks Performed
 
@@ -74,3 +76,10 @@ The laptop connected to the office WLAN and received network addressing. The tab
 - Cellular Tethering
 - DHCP
 - Wireless Connectivity
+
+## Lessons Learned
+
+- WLAN connections require the correct SSID and pre-shared key before a client can join the network.
+- Bluetooth devices must be discoverable and paired before they can communicate.
+- Cellular tethering can provide network access to another device when traditional LAN or WLAN access is unavailable.
+- Wireless troubleshooting depends on checking both connection status and IP addressing.
